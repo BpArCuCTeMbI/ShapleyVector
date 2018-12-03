@@ -14,5 +14,8 @@ public class ShapleyCalculator {
 
         scn.close();
         ShapleyCalc shCalc = new ShapleyCalc(costs);
+        shCalc.calcShapleyVector();
+
+        shCalc.printShVector();
     }
 }
